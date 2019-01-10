@@ -16,11 +16,11 @@ ng-content within your custom component, angular will remove
 it from the DOM.
 
 Service Requirements
-    -Service Created via a .ts file with a export class
-        -export class ServiceClassName(){
-            functions...
-        }
-    -In component
-        -Import { ServiceClassName} from './path'
-        -providers: [ServiceClassName]
-        -public serviceVariableName: ServiceClassName in constructor
+-Service Created via a .ts file with a export class
+-export class ServiceClassName(){
+	functions...
+}
+-In component
+-Import { ServiceClassName} from './path'
+-providers: [ServiceClassName]
+-public serviceVariableName: ServiceClassName in constructor
