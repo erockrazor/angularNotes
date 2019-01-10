@@ -1,7 +1,5 @@
-# angularNotes
+# Angular Notes 
 Simple notes for me to reference, using my own language and thoughts. 
-
-Angular Notes 
 
 ### @Input() 
 This requires 3 things
