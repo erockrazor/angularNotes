@@ -18,7 +18,7 @@ it from the DOM.
     - export class ServiceClassName(){
 	functions...
   }
-  -In component
+  - In component
     - Import { ServiceClassName} from './path'
     - providers: [ServiceClassName]
     - public serviceVariableName: ServiceClassName in constructor
