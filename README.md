@@ -22,3 +22,17 @@ it from the DOM.
     - Import { ServiceClassName} from './path'
     - providers: [ServiceClassName]
     - public serviceVariableName: ServiceClassName in constructor
+
+keybindings.json
+[
+    {
+        "key": "ctrl+enter",
+        "command": "cursorEnd",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "end",
+        "command": "cursorEnd",
+        "when": "textInputFocus"
+    }
+]
